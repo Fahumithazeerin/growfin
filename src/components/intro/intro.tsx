@@ -9,6 +9,7 @@ import MindTickle from '../../asset/comp1.png';
 import Locous from '../../asset/logo-Locus.png';
 import DrawinBox from '../../asset/logo-darwinbox.png';
 import { Button, Divider } from "antd";
+import CustomerReview from "../customer/customer-review";
 
 
 function Intro() {
@@ -299,6 +300,7 @@ function Intro() {
             />
           </PartnerLogo>
         </PartnerLogoContainer>
+        <CustomerReview />
     </>
     );
 }
