@@ -2,6 +2,7 @@ import { AppFeatures, CarouselWrapper, CustomerName, CustomerReviewContainer, Di
 import Quotation from '../../asset/quotation.png';
 import { Button, Divider } from "antd";
 import Card from "../app-exp/card";
+import TabContainer from "../app-exp/app-exp";
 
 function CustomerReview() {
     return (
@@ -163,6 +164,48 @@ function CustomerReview() {
             }}> Request a Demo </span>
         </Button>
         </div>
+        <AppFeatures style={{background: 'white'}}>
+        <div style={{
+                width: '522px',
+                height: '190px',
+                fontFamily: 'Montserrat',
+                fontWeight: '700',
+                fontSize: '52px',
+                lineHeight: '67.6px',
+            }}>
+               <span style = {{
+                 background: '-webkit-linear-gradient(270deg, #2563EB 40%, #000000 140.58%)',
+                 WebkitBackgroundClip: 'text',
+                 WebkitTextFillColor: 'transparent',
+                }}> 
+                  Transform Your
+                </span> <br/>
+                <span style = {{
+                    background: '-webkit-linear-gradient(270deg, #2563EB, #000000 110.58%)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                }}>Cash Application </span>  <br /> 
+                <span style = {{
+                    background: '-webkit-linear-gradient(270deg, #2563EB 0%, #000000 30.58%)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                }}> Process  </span> 
+            </div>
+            <div style={{
+                width: '678px',
+                height: '168px',
+                fontFamily: 'Inter',
+                fontWeight: '300',
+                fontSize: '24px',
+                lineHeight: '33.6px',
+                textAlign: 'left',
+                display: 'flex',
+                alignItems: 'flex-end'
+            }}>
+              Achieve touchless cash application to enable faster and accurate financial reporting for your business and a better experience for your customers.
+            </div>
+        </AppFeatures>
+       <TabContainer />
         </>
     )
 }

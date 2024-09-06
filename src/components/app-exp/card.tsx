@@ -2,21 +2,25 @@ import React from "react";
 
 const data = [
     {
+      key: 1,
       image: require('../../asset/sync.png'),
       heading: 'Automate Cash Application',
       para: 'Auto-match payments and extract remittances from even unstructured data, and achieve straight-through posting.'
     },
     {
+        key: 2,
         image: require('../../asset/check.png'),
         heading: 'Achieve Exceptional Accuracy',
         para: 'Ensure precise payment matching, even with partial or overpayments, to reduce posting errors and compliance nightmares.'
     },
     {
+        key: 3,
         image: require('../../asset/eye.png'),
         heading: 'Deliver Real-time Visibility',
         para: 'Gain real-time visibility into cash flow and AR aging to optimize collection strategies and improve forecasting accuracy.'
     },
     {
+        key: 4,
         image: require('../../asset/smile.png'),
         heading: 'Enhance Customer Experience',
         para: 'Avoid disputes, incorrect follow-ups and improve customer satisfaction with real-time, touchless cash applications.'
@@ -41,7 +45,7 @@ export default function Card() {
     }}>
      {data.map((d) => {
        return (
-      <div style={{
+      <div key={d.key} style={{
             display: 'flex',
             width: '305px',
             height: '432px',

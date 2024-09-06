@@ -1,4 +1,4 @@
-import { Carousel, Divider } from "antd";
+import { Carousel, Divider, Tabs } from "antd";
 import styled from "styled-components";
 
 export const CarouselWrapper = styled(Carousel)`
@@ -69,4 +69,39 @@ export const AppFeatures = styled.div`
   padding: 0px 80px Opx 80px;
   gap: 10px;
   background: rgba(228, 253, 255, 1);
+`;
+
+export const CustomTabs = styled(Tabs)`
+  .ant-tabs-nav .ant-tabs-tab {
+    color: 'rgba(30, 64, 175, 1)';
+    gap: 1px;
+    color: 'rgba(30, 64, 175, 1)';
+  }
+
+  .ant-tabs-nav .ant-tabs-tab-btn {
+    width: 120px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    color: 'rgba(30, 64, 175, 1)';
+  }
+
+
+  .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: rgba(30, 64, 175, 1);
+  }
+
+  .ant-tabs-ink-bar {
+    color: rgba(30, 64, 175, 1);
+  }
+
+  .ant-tabs-content {
+    background-color: #f0f2f5;
+    color: #333;
+  }
+
+  box-sizing: border-box;
+  padding-left: 90px;
+  padding-right: 80px;
 `;
