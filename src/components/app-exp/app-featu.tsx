@@ -7,7 +7,7 @@ export default function AppFeatures() {
 return (
     <div style ={{
       display: 'flex',
-      width: '1440px',
+      width: '100%',
       height: '621px',
       gap: '190px'
     }}>
@@ -112,7 +112,7 @@ return (
      </div>
      </div>
      <img src = {Branch} alt = 'branch.png' style={{
-        width: '40%',
+        width: '50%',
         height: '550px',
         left: '250px',
         marginTop: '2rem'

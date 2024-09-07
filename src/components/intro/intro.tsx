@@ -310,7 +310,6 @@ function Intro() {
           alignItems: 'center',
           width: '100%',
           gap: '10px',
-          padding: '10px',
           boxSizing: 'border-box'
         }}>
           <div style={{
@@ -324,8 +323,6 @@ function Intro() {
             lineHeight: '67.6px',
           }}>
           <span style={{
-            width: '946px',
-            height: '136px',
             background: '-webkit-linear-gradient(270deg, #2563EB 30%, #000000 140.58%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
