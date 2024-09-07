@@ -205,7 +205,6 @@ function CustomerReview() {
               Achieve touchless cash application to enable faster and accurate financial reporting for your business and a better experience for your customers.
             </div>
         </AppFeatures>
-       <TabContainer />
         </>
     )
 }

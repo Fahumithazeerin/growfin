@@ -10,6 +10,7 @@ import Locous from '../../asset/logo-Locus.png';
 import DrawinBox from '../../asset/logo-darwinbox.png';
 import { Button, Divider } from "antd";
 import CustomerReview from "../customer/customer-review";
+import TabContainer from "../app-exp/app-exp";
 
 
 function Intro() {
@@ -301,6 +302,59 @@ function Intro() {
           </PartnerLogo>
         </PartnerLogoContainer>
         <CustomerReview />
+        <TabContainer />
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '100%',
+          gap: '10px',
+          padding: '10px',
+          boxSizing: 'border-box'
+        }}>
+          <div style={{
+            width: '946px',
+            height: '200px',
+            gap: '30px',
+            textAlign: 'center',
+            fontFamily: 'Montserrat',
+            fontSize: '52px',
+            fontWeight: '700',
+            lineHeight: '67.6px',
+          }}>
+          <span style={{
+            width: '946px',
+            height: '136px',
+            background: '-webkit-linear-gradient(270deg, #2563EB 30%, #000000 140.58%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+
+          }}>
+             Secure, Seamless, and Scalable 
+           </span> <br />
+          <span style = {{
+               background: '-webkit-linear-gradient(270deg, #2563EB -20.29%, #000000 90.90%)',
+               WebkitBackgroundClip: 'text',
+               WebkitTextFillColor: 'transparent',
+            }}> Cash Application </span>
+
+          </div>
+          <p style={{
+            width: '830px',
+            height: '68px',
+            gap: '50px',
+            textAlign: 'center',
+            fontFamily: 'Inter',
+            fontSize: '24px',
+            fontWeight: '300',
+            lineHeight: '33.6px',
+            color: 'rgb(0,0,0,1)',
+          }}>
+           Integrate seamlessly with all your banks and ERP, and keep your auditors happy with state-of-the-art compliance and security measures.
+          </p>
+        </div>
+
     </>
     );
 }
