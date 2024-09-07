@@ -1,31 +1,32 @@
 import { Tabs, TabsProps } from "antd";
 import { CustomTabs } from "../customer/styled";
+import AppFeatures from "./app-featu";
 
 const items: TabsProps['items'] = [
     {
       key: '1',
       label: 'Instant Capture',
-      children: 'Content of Tab Pane 1',
+      children: <AppFeatures />,
     },
     {
       key: '2',
       label: 'Accurate Match',
-      children: 'Content of Tab Pane 2',
+      children: <AppFeatures />,
     },
     {
       key: '3',
       label: 'Remittance Extraction',
-      children: 'Content of Tab Pane 3',
+      children: <AppFeatures />,
     },
     {
       key: '4',
       label: 'Exceptions Handling',
-      children: 'Content of Tab Pane 3',
+      children: <AppFeatures />,
     },
     {
       key: '5',
       label: 'Touchless Posting',
-      children: 'Content of Tab Pane 3',
+      children: <AppFeatures />,
     }
   ];
 

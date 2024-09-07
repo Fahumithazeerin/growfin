@@ -73,9 +73,7 @@ export const AppFeatures = styled.div`
 
 export const CustomTabs = styled(Tabs)`
   .ant-tabs-nav .ant-tabs-tab {
-    color: 'rgba(30, 64, 175, 1)';
     gap: 1px;
-    color: 'rgba(30, 64, 175, 1)';
   }
 
   .ant-tabs-nav .ant-tabs-tab-btn {
@@ -84,7 +82,6 @@ export const CustomTabs = styled(Tabs)`
     font-size: 18px;
     font-weight: 700;
     align-items: center;
-    color: 'rgba(30, 64, 175, 1)';
   }
 
 
@@ -93,11 +90,10 @@ export const CustomTabs = styled(Tabs)`
   }
 
   .ant-tabs-ink-bar {
-    color: rgba(30, 64, 175, 1);
+    background: linear-gradient(103.43deg, #2563EB 25.63%, #8D9097 80.73%);
   }
 
   .ant-tabs-content {
-    background-color: #f0f2f5;
     color: #333;
   }
 
