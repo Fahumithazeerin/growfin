@@ -1,11 +1,11 @@
-import Oracle from '../asset/oracle.png';
-import SAP from '../asset/sap.png';
-import Intuit from '../asset/intuit.png';
-import BOA from '../asset/BOA.png';
-import JPMorganChase from '../asset/JP-Morgan-Chase.png';
-import Wells_Fargo from '../asset/Wells_Fargo.png';
-import Security1 from '../asset/Security.png';
-import Security2 from '../asset/Security2.png';
+import Oracle from '../asset/integrations/oracle.png';
+import SAP from '../asset/integrations/sap.png';
+import Intuit from '../asset/integrations/intuit.png';
+import BOA from '../asset/integrations/BOA.png';
+import JPMorganChase from '../asset/integrations/JP-Morgan-Chase.png';
+import Wells_Fargo from '../asset/integrations/Wells_Fargo.png';
+import Security1 from '../asset/integrations/Security.png';
+import Security2 from '../asset/integrations/Security2.png';
 import { Divider } from 'antd';
 import { Dividers } from './customer/styled';
 
