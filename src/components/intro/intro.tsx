@@ -11,6 +11,8 @@ import DrawinBox from '../../asset/logo-darwinbox.png';
 import { Button, Divider } from "antd";
 import CustomerReview from "../customer/customer-review";
 import TabContainer from "../app-exp/app-exp";
+import Integrations from "../integrations";
+import Footer from "../footer/footer";
 
 
 function Intro() {
@@ -347,11 +349,103 @@ function Intro() {
             fontWeight: '300',
             lineHeight: '33.6px',
             color: 'rgb(0,0,0,1)',
+            marginTop: '-1rem'
           }}>
            Integrate seamlessly with all your banks and ERP, and keep your auditors happy with state-of-the-art compliance and security measures.
           </p>
         </div>
-
+        <Integrations />
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            width: '100%',
+            height: '1022px',
+            gap: '128px',
+            marginTop: '-3rem'
+        }}>
+          <div style={{
+             display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: '80%',
+            height: '454px',
+            gap: '20px',
+            borderRadius: '10px',
+            background: 'linear-gradient(105.5deg, #2563EB 0.21%, #1F3B8B 63.36%)'
+        }}>
+            <p style={{
+              width: '767px',
+              height: '123px',
+              textAlign: 'center',
+              fontFamily: 'Montserrat',
+              fontSize: '52px',
+              fontWeight: '700',
+              lineHeight: '67.6px',
+              color: 'rgba(255, 255, 255, 1)',
+            }}>
+             Embrace the Future of Cash<br />
+              Application Today
+            </p>
+            <div style={{
+            width: '456px',
+            height: '64px',
+            gap: '20px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        }}>
+        <Button type = 'primary'  style={{
+           width: '212px',
+           height: '49px',
+           backgroundColor: 'rgba(5, 255, 255, 1)',
+           display: 'flex',
+           justifyContent: 'center',
+           alignItems: 'center',
+           borderRadius: '20px',
+           padding: '12px, 24px, 12px, 24px',
+           gap: '8px'
+        }}>
+            <span style={{
+                  width: '164px',
+                  height: '25px',
+                textAlign: 'center',
+                fontFamily: 'Montserrat',
+                fontSize: '18px',
+                fontWeight: '600',
+                lineHeight: '25.2px',
+                color: 'rgba(0, 0, 0, 1)',
+            }}> Schedule a Demo </span>
+        </Button>
+        <Button ghost
+         style={{
+           width: '194px',
+           height: '49px',
+           display: 'flex',
+           justifyContent: 'center',
+           alignItems: 'center',
+           borderRadius: '20px',
+           boxSizing: 'border-box',
+           padding: '12px, 24px, 12px, 24px',
+           gap: '8px',
+           border: '2px solid rgba(5, 255, 255, 1)'
+        }}>
+        <span style={{
+                width: '149px',
+                height: '25px',
+                textAlign: 'center',
+                fontFamily: 'Montserrat',
+                fontSize: '18px',
+                fontWeight: '600',
+                lineHeight: '25.2px',
+                color: 'rgba(5, 255, 255, 1)',
+            }}> Request a Access </span>
+        </Button>
+        </div>
+        </div>
+        <Footer />
+        </div>
     </>
     );
 }
